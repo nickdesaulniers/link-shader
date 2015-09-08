@@ -1,6 +1,6 @@
 {
   "name": "link-shader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Used to link two shaders into a shader program in WebGL.",
   "main": "index.js",
   "scripts": {
