@@ -5,13 +5,13 @@ Used to link two shaders into a shader program in WebGL.
 `npm i link-shader`
 
 ```js
-var shaderCompiler = require('compile-shader');
-var shaderLinker = require('link-shader');
+var compile = require('compile-shader');
+var link = require('link-shader');
 
 var gl = document.createElement('canvas').getContext('webgl');
-var vertexShader = shaderCompiler(gl, ..., ...);
-var fragmentShader = shaderCompiler(gl, ..., ...);
-var shaderProgram = shaderLinker(gl, vertexShader, fragmentShader);
+var vertexShader = compile(gl, ..., ...);
+var fragmentShader = compile(gl, ..., ...);
+var shaderProgram = link(gl, vertexShader, fragmentShader);
 
 gl.useProgram(shaderProgram);
 ```
