@@ -1,4 +1,7 @@
 # Link-Shader
+Used to link two shaders into a shader program in WebGL.
+
+## Usage
 `npm i link-shader`
 
 ```js
