@@ -5,7 +5,7 @@ Used to link two shaders into a shader program in WebGL.
 `npm i link-shader`
 
 ```js
-var shaderCompiler = require('shader-compiler');
+var shaderCompiler = require('compile-shader');
 var shaderLinker = require('link-shader');
 
 var gl = document.createElement('canvas').getContext('webgl');
