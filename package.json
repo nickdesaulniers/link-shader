@@ -4,7 +4,7 @@
   "description": "Used to link two shaders into a shader program in WebGL.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "browserify test/test.js | node_modules/smokestack/bin/smokestack.js -b firefox | node_modules/tap-nyan/bin/cmd.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/nickdesaulniers/link-shader/issues"
   },
-  "homepage": "https://github.com/nickdesaulniers/link-shader#readme"
+  "homepage": "https://github.com/nickdesaulniers/link-shader#readme",
+  "devDependencies": {
+    "compile-shader": "0.0.3",
+    "smokestack": "^3.3.1",
+    "tap-nyan": "0.0.2",
+    "tape": "^4.2.0"
+  }
 }
