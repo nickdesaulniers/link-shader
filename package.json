@@ -1,0 +1,26 @@
+{
+  "name": "link-shader",
+  "version": "0.0.1",
+  "description": "Used to link two shaders into a shader program in WebGL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdesaulniers/link-shader.git"
+  },
+  "keywords": [
+    "shader",
+    "link",
+    "linkage",
+    "linker",
+    "webgl"
+  ],
+  "author": "Nick Desaulniers",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/nickdesaulniers/link-shader/issues"
+  },
+  "homepage": "https://github.com/nickdesaulniers/link-shader#readme"
+}
